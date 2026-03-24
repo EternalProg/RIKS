@@ -36,6 +36,11 @@ func task34(a int, b int) int {
 }
 
 func main() {
+	/*
+		   	a = 6, b = 8
+				gcd(6,8) = 2
+		     lcm = 6/2*8 = 24
+	*/
 	var a, b int
 	fmt.Scan(&a, &b)
 

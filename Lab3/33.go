@@ -8,18 +8,25 @@ import "fmt"
 Отриманий результат виведіть в термінал.
 */
 
-func task33(str string, symbol rune) string {
-	if str[0] == symbol {
-		return task33(str[1:], symbol)
+func task33Bytes(s string, sym byte) string {
+	if len(s) == 0 {
+		return ""
 	}
-
-	return string(str[0]) + task33(str[1:], symbol)
+	if s[0] == sym {
+		return task33Bytes(s[1:], sym)
+	}
+	return string(s[0]) + task33Bytes(s[1:], sym)
 }
 
 func main() {
 	var str string
-	var symbol rune
-	fmt.Scan(&str, &symbol)
+	var symStr string
+	fmt.Scan(&str)
+	fmt.Scan(&symStr)
 
-	fmt.Println(task33(str, sym))
+	if len(symStr) == 0 {
+		fmt.Println(str)
+		return
+	}
+	fmt.Println(task33Bytes(str, symStr[0]))
 }
