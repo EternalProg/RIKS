@@ -1,0 +1,33 @@
+{
+  "property": {
+    "address": "123 Elm Street",
+    "city": "Manchester",
+    "zipcode": "94110"
+  },
+  "rental": {
+    "type": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 1.5,
+    "amenities": ["Swimming Pool", "Gym", "Parking"],
+    "pets_allowed": true
+  },
+  "landlord": {
+    "name": "John Doe",
+    "phone": "+1 123-456-7890",
+    "email": "johndoe@example.com"
+  },
+  "reviews": [
+    {
+      "username": "HappyRenter",
+      "rating": 5,
+      "comment": "Great place to live!",
+      "date": "2021-08-15"
+    },
+    {
+      "username": "SatisfiedTenant",
+      "rating": 4,
+      "date": "2021-08-18"
+    }
+  ],
+  "lease": null
+}

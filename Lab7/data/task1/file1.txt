@@ -1,0 +1,2 @@
+Go is simple.
+Files are useful.

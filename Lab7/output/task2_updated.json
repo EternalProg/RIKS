@@ -1,0 +1,42 @@
+{
+  "property": {
+    "address": "123 Elm Street",
+    "city": "Liverpool",
+    "zipcode": "94110"
+  },
+  "rental": {
+    "type": "Apartment",
+    "bedrooms": 3,
+    "bathrooms": 1.5,
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Parking",
+      "Wi-Fi"
+    ],
+    "pets_allowed": false
+  },
+  "landlord": {
+    "name": "John Doe",
+    "phone": "+1 987-654-3210",
+    "email": "johndoe@example.com"
+  },
+  "reviews": [
+    {
+      "username": "HappyRenter",
+      "rating": 5,
+      "comment": "Great place to live!",
+      "date": "2021-08-15"
+    },
+    {
+      "username": "SatisfiedTenant",
+      "rating": 4,
+      "date": "2021-08-18"
+    }
+  ],
+  "lease": {
+    "start_date": "2024-09-01",
+    "end_date": "2025-08-31",
+    "monthly_rent": 1800
+  }
+}

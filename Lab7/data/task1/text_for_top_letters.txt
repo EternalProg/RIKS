@@ -1,0 +1,2 @@
+Аналіз частоти букв у тексті потрібен для цього завдання.
+Letter frequency in this line helps find top vowel and consonant.

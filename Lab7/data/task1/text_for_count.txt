@@ -1,0 +1,2 @@
+Привіт, це лабораторна робота з Go.
+We count vowels and consonants in this text.

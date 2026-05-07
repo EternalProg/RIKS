@@ -1,0 +1,8 @@
+Go is simple.
+Files are useful.
+
+Practice makes progress.
+Go handles text well.
+
+Laboratory task.
+Merged output example.
